@@ -24,9 +24,11 @@ public class Question_13_14 {
 
         System.out.println("------------------------");
       /*  Soru 14-)
-        Kullanıcıdan bir isim isteyelim. Bu isim 3 harfli olmalıdır. Ardından ismin aynı karakterlere sahip olup olmadığını kontrol edelim.
-                İsim aynı karakterlere sahipse konsolda "Dize yinelenen karakterlere sahip"  değil ise konsolda "Dize benzersiz karakterlere sahip" yazdıralım.
-                Ipucu:
+        Kullanıcıdan bir isim isteyelim. Bu isim 3 harfli olmalıdır.
+        Ardından ismin aynı karakterlere sahip olup olmadığını kontrol edelim.
+         İsim aynı karakterlere sahipse konsolda "Dize yinelenen karakterlere sahip"
+       değil ise konsolda "Dize benzersiz karakterlere sahip" yazdıralım.
+        Ipucu:
         IF/Else veya Ternary kullanabilirsiniz. Harfleri Char ile alıp karşılaştırabilirsiniz.*/
 Scanner scan=new Scanner(System.in);
         System.out.println("3 karakterli bir isim giriniz");

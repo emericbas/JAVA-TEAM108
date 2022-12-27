@@ -15,7 +15,7 @@ public class C03_replaceAll {
         replace() yerine replaceAll() kullaniriz
         Java bu genellemeleri yazabilmemiz icin regex(regular expressions)tanimlamistir
 
-        \\d: butun digit'ler
+        "\\d": butun digit'ler
          */
         str=str.replaceAll("\\d","");
         System.out.println(str);

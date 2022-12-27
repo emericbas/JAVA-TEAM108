@@ -1,5 +1,11 @@
 package Testing_Practice_SampleQuestions;
 
+import days.day18_ArrayList.C03_remove_ForIntegers;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class Question_37 {
     public static void main(String[] args) {
       /*  Soru 37-)
@@ -19,8 +25,18 @@ public class Question_37 {
         1 2 3 2 1 6 3 4 5 2
         ÇIKTI:
         Birbirinden farkli girilen sayilar: 1 2 3 6 4 5
-
-       */
-
+      */
+int []arr=  {1 ,2 ,3 ,2 ,1 ,6 ,3 ,4 ,5 ,2};
+        System.out.println(Arrays.toString(unique(arr)));
+    }public static int[]unique(int[]arr){
+        List<Integer>list=new ArrayList<>();
+        for (int i = 0; i <arr.length ; i++) {
+          if(!list.contains(arr[i])){
+              list.add(arr[i]);
+          }
+        }int []tekrarsiz=new int[list.size()];
+        for (int i = 0; i <tekrarsiz.length ; i++) {
+            tekrarsiz[i]=list.get(i);
+        }return tekrarsiz;
     }
 }

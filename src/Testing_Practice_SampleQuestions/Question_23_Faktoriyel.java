@@ -9,23 +9,19 @@ public class Question_23_Faktoriyel {
         Girdi: 6
         Çıktı: 6!=6*5*4*3*2*1=720
         ipucu: Aldıgınız sayıyı methoda gönderin. Methodun içinde For Loop ile faktöriyelini hesaplayın.*/
-        Scanner scan=new Scanner(System.in);
-        System.out.println("bir tamsayı giriniz");
-        int number=scan.nextInt();
-      //  System.out.println( factoriyel(number));
+        int sayi=6;
+        faktoriyel(sayi);
     }
 
-   public static String  factoriyel(int number) {
-       String factoriyelSonuc = "";
-       int factoriyel = 1;
-       for (int i = number; i > 0; i--) {
-
-         factoriyelSonuc = i+"*";
-           factoriyel *= i;
-       }//OLMADIIIIIIIIIIIIIIIIIIIII
-
-
-     return factoriyelSonuc ;
-
+    private static void faktoriyel(int sayi) {
+        int fact=1;
+        String sekil="";
+        for (int i = sayi; i >=1 ; i--) {
+            fact*=i;
+        }
+        for (int i = sayi; i >1; i--) {
+            sekil+=i+"*";
+        }
+        System.out.println(sayi +"! = "+sekil+"1 = "+fact);
    }
 }

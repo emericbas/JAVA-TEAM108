@@ -21,18 +21,18 @@ countTriple("a") → 0
     String str = hi.replaceAll("\\d", "");
     str = str.replace("hi", "6");
     System.out.println(str);
-    for (String each : str
-    ) {
-      if (each.equals("6")) {
+//    for (String each : str
+//    ) {
+  //    if (each.equals("6")) {
 
 
         counter++;
 
       }
-      System.out.println(counter);
+    //  System.out.println(counter);
     }
-  }
-}
+
+
 
 
 

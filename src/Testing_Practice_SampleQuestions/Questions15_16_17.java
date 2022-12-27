@@ -28,12 +28,12 @@ public class Questions15_16_17 {
         Ipucu:  For/While/Do Loops konularını ve String Manipulation konularını hatırlayalım!
                 Loopun içerisinde StringM methodlarından  yararlanalım!*/
         String kelime = "weropir";
-        while (kelime.length() <= 5) {
+        while (kelime.length() < 5) {
 
             System.out.println("Yeni bir kelime giriniz");
             break;
         }
-        if (kelime.length() > 5) {
+        if (kelime.length() >=5) {
             System.out.println(kelime.substring(kelime.length() - 3) + kelime.substring(kelime.length() - 3));
             System.out.println("----------------------------------");
        /* Soru 17-)
@@ -59,6 +59,12 @@ public class Questions15_16_17 {
                 }
                 aranan--;
             }
-            System.out.println(isim + " icerisinde " + counter + " tane " + chr + " bulundurur.");        }
+            System.out.println(isim + " icerisinde " + counter + " tane " + chr + " bulundurur.");
+            /* for (int i = 0; i <isim.length() ; i++) {
+            if(isim.charAt(i)==(chr)){
+                counter++;
+        }
     }
-}
+
+             */
+}}}
