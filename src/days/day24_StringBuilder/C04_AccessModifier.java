@@ -1,6 +1,7 @@
 package days.day24_StringBuilder;
 
 public class C04_AccessModifier {
+
     String str;
     // Access mofifier'i gozlerimizle goremiyorsak
     // default access modifier var demektir
