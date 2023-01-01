@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Question_30 {
+public class Question_30_YinelenenElemanInterwiew {
     public static void main(String[] args) {
       /*  Soru 30-)
         Bir Stringdeki yinelenen karakterleri Array String olarak döndüren bir kod yazın.

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Question_37 {
+public class Question_37_ArraydeFarkliSayiBulma {
     public static void main(String[] args) {
       /*  Soru 37-)
         --BONUS--  ---SORU AŞKIYLA YANIP TUTUŞANLAR İÇİN :-))---
