@@ -7,8 +7,8 @@ public class Obeb_Okek {
 
     public static void main(String[] args) {
 
-        int sayi1 = 802;
-        int sayi2 = 912;
+        int sayi1 = 80;
+        int sayi2 = 90;
 
         int kucukSayi = 0;
         int buyukSayi = 0;
