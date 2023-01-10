@@ -23,7 +23,14 @@ public class N03_Question1 {
         ListIterator lit= sayilar.listIterator();
 
         while(lit.hasNext()){
+            Integer sayi= (Integer) lit.next();
 
+            if (sayi<20 || sayi>40 ){
+                lit.remove();
+            }
+        }
+
+        System.out.println(sayilar);
         }
     }
-}
+
