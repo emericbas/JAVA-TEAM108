@@ -1,8 +1,8 @@
 package days.day13_methodOverloading_whileLoop;
 
-import days.day12_MethodCreation.C03_AsalSayi;
-import days.day12_MethodCreation.C07_TerseCevirme;
-import days.day12_MethodCreation.C09_FibonacciSerisi;
+import days.day12_methodCreation.C03_AsalSayi;
+import days.day12_methodCreation.C07_TerseCevirme;
+import days.day12_methodCreation.C09_FibonacciSerisi;
 
 public class C01_MethodCall {
     public static void main(String[] args) {

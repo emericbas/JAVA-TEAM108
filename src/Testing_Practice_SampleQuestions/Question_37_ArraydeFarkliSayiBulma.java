@@ -1,7 +1,5 @@
 package Testing_Practice_SampleQuestions;
 
-import days.day18_ArrayList.C03_remove_ForIntegers;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
