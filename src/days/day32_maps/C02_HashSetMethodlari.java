@@ -12,6 +12,6 @@ public class C02_HashSetMethodlari {
         set1.add("Elif");
         System.out.println(set1); // [null, Sevilay, Elif, Ramazan]
         set1.add(null);
-        System.out.println(set1); // [null, Sevilay, Elif, Ramazan]
+        System.out.println(set1); // [null, Sevilay, Elif, Ramazan] Set oldugu icin null bir tane var
     }
 }
