@@ -1,4 +1,4 @@
-package Samples;
+package GenelTekrar;
 
 import java.util.ArrayList;
 import java.util.Scanner;
