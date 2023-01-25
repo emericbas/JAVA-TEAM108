@@ -11,18 +11,15 @@ public class startsWithQuestion {
         //3)cumle metni birden fazla iceriyor
         String cumle="Java cok guzeldir cok.";
         String metin="cok";
+        int ilkIndex =cumle.indexOf(metin);
+        int sonIndex=cumle.lastIndexOf(metin);
         if(!cumle.contains(metin)){
-            System.out.println("cumle metni icermiyor");
-        }else {
-            int ilkindex=cumle.indexOf(metin);
-            int ikinciindex=cumle.indexOf(metin,ilkindex+1);
-            if(ikinciindex==-1){
-                System.out.println( "metni sadece 1 kere iceriyor");
-            }
-            else{
-                System.out.println( "metni birden fazla iceriyor");
+            System.out.println("Cumle metini icermiyor");
+        }else if(ilkIndex==sonIndex) {
+            System.out.println("Cumle metini sadece birkez iceriyor");
+        }else System.out.println("Cumle metini 1'den fazla iceriyor");
             }
         }
 
-    }
-}
+
+

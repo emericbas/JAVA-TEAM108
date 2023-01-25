@@ -25,7 +25,7 @@ public class C05_INDEXoF {
         System.out.println(str.indexOf("o", ilko+1));
         // +1 yapmazsak ilk o'nun yerini yazar
 
-        //olmayan bir string de ne gonderecek?=Herzzaman -1 dondurur
+        //olmayan bir string de ne gonderecek?=Her zaman -1 dondurur
         System.out.println(str.indexOf("z"));// x olmadigi icin -1 donuyor
 
 

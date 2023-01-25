@@ -14,7 +14,7 @@ public class C01_nullPointer {
         System.out.println(str2.isBlank());//true
 
         // null bir deger degil, isaretcidir(null pointer)
-        //null pointer:non primitivr bir objenin oludturldugunu
+        //null pointer:non primitive bir objenin oludturldugunu
         // ancak bilincli olarak deger atanmadigini isaretler
 // str4 'un degeri null'dir YANLIS,
 // str4 null olarak isaretlenmistir cumlesi DOGRU
@@ -28,7 +28,7 @@ public class C01_nullPointer {
 
        !!!!!!!!  null String methodlariyla kullnilirsa null  pointer exception verir
 
-         null pointer ise bu variable'a bir gdeger atanmadigini ve
+         null pointer ise bu variable'a bir deger atanmadigini ve
           bunun bilincli bir tercih oldugunu Java'ya soyler
           dolayisiyla java kodlari calistirmaya devam eder.Ancak
          */

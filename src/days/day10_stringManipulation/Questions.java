@@ -41,7 +41,7 @@ public class Questions {
         //  the length of the String is odd, delete the middle letter and replace it with :
           /*  Question 2: Collect and print the String prices given by the user in a certain format.
         input1: “15.30 €” , input2: “11.40 €”
-        output : 36.70 €
+        output : 26.70 €
         Question 3: Write a program that deletes unwanted numbers and special characters in the text
         received from the user and converts only the first letter to uppercase and the other letters
         to lowercase.

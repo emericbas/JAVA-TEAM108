@@ -6,6 +6,8 @@ public class C02_replace {
         System.out.println(str.replace('a', 'A'));
         System.out.println(str.replace(" ", ""));
         System.out.println(str.replace("Java", "yazilim"));
+
+
          String telefon="555 34512378";
         System.out.println(telefon.replace("555","590"));
         System.out.println(telefon.replace('3','9'));
